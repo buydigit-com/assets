@@ -1,0 +1,85 @@
+creare un sistema (forse nel config) che permette di impostare vari treshold dinamici 
+tipo fiat amoun too low 
+ecc
+
+
+si fa un cron che check tutte le tx initiated non piu vecchie di tot
+se le coin sono arrivate le dumpa
+
+ci saranno 3 opzioni dispobinibili per il merchant: swappare tutto per fiat e mandare in banca, swappare tutto per bitcoin e mandare in wallet, swappare tutto per USDC e mandare in wallet
+il gateway non sarà attivo finche l'utente non ha definito una delle 3 opzioni sopra elencate
+#TOKEN DELLA PIATTAFORMA
+
+sistemare tutti i controlli sulle active coin e active networks
+fare pagementi ricorrenti in defi
+fare un sistema di notifica per i pagamenti ricorrenti
+fare un sistema per far pagare tramite link peer to peer
+redis queue per dumpare coin e fare bonifici
+nel gateway apparirà in grande il nome dello store ecc ecc con logo image e personalizzazione (mantenendo uno stile professionate)
+e sotto ci sarà powered by buydigit.com 
+#FRONTEND
+[]: # Path: TODO
+captcha login e signup
+reset password
+activate account con email
+fare un sistema per cui un utente non puoi fare quasi niente della tabella merchant se non ha verificato il suo account e la sua business
+i merchant pososno modificare alcune parti del gateway checkout come colori e testo il logo ma il nostro logo deve essere sempre visibile e 
+anche quelli della sicurezza
+
+creare un primo scheletro funzionante della piattaforma e poi lavorare pesantemente alle rifiniture
+
+MENU:
+
+#SUPPORT
+[]: # Path: TODO
+
+#MERCHANT
+[]: # Path: TODO
+MENU:
+- Dashboard
+- Store
+- Payments
+    - Transactions
+    - Invoices
+    - Subscriptions
+    - Withdrawals
+    - Settings
+- Customers
+- Reports
+    - Transactions
+    - Invoices
+    - Subscriptions
+    - Withdrawals
+    - Sales
+
+#PROFILE
+[]: # Path: TODO
+MENU:
+- Account
+- Security
+- Notifications
+- Verification
+- Settings
+
+
+
+#DOCUMENTATION
+[]: # Path: TODO
+- Getting Started
+- Integrations
+    - API
+    - Webhooks
+    - Plugins
+    - Custom Integrations
+- FAQ
+- Glossary
+- Contact Us
+- Change Log
+
+#OTHER
+[]: # Path: TODO
+- Privacy Policy
+- Terms of Service
+- Cookie Policy
+- Refund Policy
+- Security Policy
